@@ -37,7 +37,7 @@ public class RNNordicDfuModule extends ReactContextBaseJavaModule implements Lif
                 .setKeepBond(false);
         
         // set PRN = 1
-        starter.setPacketsReceiptNotificationsValue(1);
+        // starter.setPacketsReceiptNotificationsValue(1);
 
         if (options.hasKey("retries")) {
           int retries = options.getInt("retries");
